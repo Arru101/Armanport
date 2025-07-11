@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 
 // Define the server port
-const port = 3019;
+const port = process.env.PORT || 3001
 
 const app = express();
 
